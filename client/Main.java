@@ -11,6 +11,7 @@ public class Main{
 			String completeCommand = windowsCommandPrefix + command;
 			System.out.println("\n" + idString+ " "+ completeCommand);
 			Process proc = Runtime.getRuntime().exec(windowsCommandPrefix + command);
+			Thread.sleep(5);
 		}
 		catch (Exception e)
 		{
