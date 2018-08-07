@@ -15,4 +15,4 @@ After adding
 ```
 Thread.sleep(5);
 ```
-We found that "AI/run_proxy.bat" was correctedly executed for 200 times.
+We found that "AI/run_proxy.bat" was executed for 133 times, while it was executed for only 100 times before adding that. So, we think that it is caused by too frequent commands.
