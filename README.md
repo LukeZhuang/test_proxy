@@ -8,4 +8,11 @@ Use Java Runtime to run "AI/run_proxy.bat" for 200 times(sleep the thread fo 10 
 4. The number of lines in "output.txt" shows the times that "AI/run_proxy.bat" was executed.  
 
 The default directory is "D:/test". Before running, you may modify it in "AI/run_proxy.bat","run.bat" and "client/Main.java"  
-To make "Main.jar, run "client/clean.bat" first and then "client/make.bat"
+To make "Main.jar, run "client/clean.bat" first and then "client/make.bat"  
+
+# Potential Solution
+After adding
+```
+Thread.sleep(5);
+```
+We found that "AI/run_proxy.bat" was correctedly executed for 200 times.
